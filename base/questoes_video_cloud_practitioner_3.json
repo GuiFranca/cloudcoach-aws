@@ -1,0 +1,215 @@
+[
+  {
+    "topico": "Arquitetura de Nuvem",
+    "pergunta": "Servidores web executando em instâncias Amazon EC2 acessam uma aplicação legada em um data center corporativo. Qual termo descreve esse modelo?",
+    "respostas": [
+      "Nativo da nuvem",
+      "Rede de parceiros",
+      "Arquitetura híbrida",
+      "Infraestrutura como serviço"
+    ],
+    "correta": "Arquitetura híbrida"
+  },
+  {
+    "topico": "Serviços Gerenciados",
+    "pergunta": "Qual é o benefício de usar serviços gerenciados da AWS, como o Amazon ElastiCache e o Amazon RDS?",
+    "respostas": [
+      "Eles exigem que o cliente monitore e substitua instâncias com falha.",
+      "Eles têm melhor desempenho que serviços gerenciados pelo cliente.",
+      "Eles simplificam a aplicação de patches e atualizações do sistema operacional.",
+      "Eles não exigem que o cliente otimize o tipo ou tamanho da instância."
+    ],
+    "correta": "Eles têm melhor desempenho que serviços gerenciados pelo cliente."
+  },
+  {
+    "topico": "Armazenamento",
+    "pergunta": "Qual serviço fornece armazenamento de objetos online praticamente ilimitado e altamente durável?",
+    "respostas": [
+      "Amazon Redshift",
+      "Amazon EFS",
+      "Amazon ECS",
+      "Amazon S3"
+    ],
+    "correta": "Amazon S3"
+  },
+  {
+    "topico": "IAM",
+    "pergunta": "Qual das seguintes entidades do IAM está associada a uma chave de acesso ID e chave secreta ao usar o AWS CLI?",
+    "respostas": [
+      "Grupo IAM",
+      "Usuário IAM",
+      "Função IAM",
+      "Política IAM"
+    ],
+    "correta": "Usuário IAM"
+  },
+  {
+    "topico": "Segurança",
+    "pergunta": "Quais dos seguintes serviços relacionados à segurança são oferecidos pela AWS? (Escolha dois)",
+    "respostas": [
+      "Tokens físicos para autenticação multifator",
+      "Verificações de segurança do AWS Trusted Advisor",
+      "Criptografia de dados",
+      "Testes de penetração automatizados",
+      "Detecção de conteúdo protegido por direitos autorais no Amazon S3"
+    ],
+    "correta": [
+      "Verificações de segurança do AWS Trusted Advisor",
+      "Criptografia de dados"
+    ]
+  },
+  {
+    "topico": "Banco de Dados",
+    "pergunta": "Qual serviço gerenciado da AWS é usado para hospedar bancos de dados?",
+    "respostas": [
+      "AWS Batch",
+      "AWS Artifact",
+      "AWS Data Pipeline",
+      "Amazon RDS"
+    ],
+    "correta": "Amazon RDS"
+  },
+  {
+    "topico": "Armazenamento",
+    "pergunta": "Qual serviço da AWS fornece uma solução de armazenamento de arquivos simples e escalável para servidores baseados em Linux na AWS ou locais?",
+    "respostas": [
+      "Amazon S3",
+      "Amazon Glacier",
+      "Amazon EBS",
+      "Amazon EFS"
+    ],
+    "correta": "Amazon EFS"
+  },
+  {
+    "topico": "Boas Práticas de Arquitetura",
+    "pergunta": "Ao projetar aplicações em nuvem, qual dos seguintes é um princípio-chave de design?",
+    "respostas": [
+      "Usar a maior instância possível",
+      "Provisionar capacidade para carga máxima",
+      "Usar o processo de desenvolvimento Scrum",
+      "Implementar elasticidade"
+    ],
+    "correta": "Implementar elasticidade"
+  },
+  {
+    "topico": "Armazenamento",
+    "pergunta": "Qual serviço da AWS deve ser usado para armazenamento de longo prazo e baixo custo de backups de dados?",
+    "respostas": [
+      "Amazon RDS",
+      "Amazon Glacier",
+      "AWS Snowball",
+      "AWS EBS"
+    ],
+    "correta": "Amazon Glacier"
+  },
+  {
+    "topico": "Responsabilidade Compartilhada",
+    "pergunta": "No modelo de responsabilidade compartilhada, qual das seguintes é uma responsabilidade compartilhada entre o cliente e a AWS?",
+    "respostas": [
+      "Controles físicos",
+      "Gerenciamento de patches",
+      "Segurança da zona",
+      "Auditoria do data center"
+    ],
+    "correta": "Gerenciamento de patches"
+  },
+  {
+    "topico": "Rede",
+    "pergunta": "Qual serviço da AWS permite que empresas conectem uma VPC a um data center local?",
+    "respostas": [
+      "AWS VPN",
+      "Amazon Redshift",
+      "API Gateway",
+      "Amazon Direct Connect"
+    ],
+    "correta": "Amazon Direct Connect"
+  },
+  {
+    "topico": "Arquitetura Serverless",
+    "pergunta": "Uma empresa quer reduzir a pegada física de computação usada por desenvolvedores para rodar código. Qual serviço atende essa necessidade com arquitetura serverless?",
+    "respostas": [
+      "Amazon EC2",
+      "AWS Lambda",
+      "Amazon DynamoDB",
+      "AWS CodeCommit"
+    ],
+    "correta": "AWS Lambda"
+  },
+  {
+    "topico": "Responsabilidade Compartilhada",
+    "pergunta": "Qual tarefa é de responsabilidade da AWS no modelo de responsabilidade compartilhada de segurança e conformidade?",
+    "respostas": [
+      "Conceder acesso a indivíduos e serviços",
+      "Criptografar dados em trânsito",
+      "Atualizar firmware do host EC2",
+      "Atualizar sistemas operacionais"
+    ],
+    "correta": "Atualizar firmware do host EC2"
+  },
+  {
+    "topico": "AWS Marketplace",
+    "pergunta": "Onde uma empresa deve procurar por listagens de software de fornecedores independentes para encontrar, testar, comprar e implantar softwares que rodam na AWS?",
+    "respostas": [
+      "AWS Marketplace",
+      "Amazon Lumberyard",
+      "AWS Artifact",
+      "Amazon CloudSearch"
+    ],
+    "correta": "AWS Marketplace"
+  },
+  {
+    "topico": "Benefícios da Nuvem",
+    "pergunta": "Qual das seguintes é uma vantagem de usar a AWS Cloud?",
+    "respostas": [
+      "Segurança permissiva elimina o trabalho administrativo.",
+      "Capacidade de focar em atividades que geram receita.",
+      "Controle sobre o hardware da rede em nuvem.",
+      "Escolha de fornecedores específicos de hardware em nuvem."
+    ],
+    "correta": "Capacidade de focar em atividades que geram receita."
+  },
+  {
+    "topico": "Custo Total de Propriedade",
+    "pergunta": "Ao realizar uma análise de custos que envolve isolamento físico da carga de trabalho de um cliente, qual modelo de hospedagem deve ser considerado no TCO?",
+    "respostas": [
+      "Hosts Dedicados",
+      "Instâncias Reservadas",
+      "Instâncias Sob Demanda",
+      "Instâncias Reservadas Sem Pagamento Inicial"
+    ],
+    "correta": "Hosts Dedicados"
+  },
+  {
+    "topico": "DevOps",
+    "pergunta": "Qual serviço da AWS permite gerenciar infraestrutura como código?",
+    "respostas": [
+      "AWS CodePipeline",
+      "AWS CodeDeploy",
+      "AWS Direct Connect",
+      "AWS CloudFormation"
+    ],
+    "correta": "AWS CloudFormation"
+  },
+  {
+    "topico": "Auditoria e Monitoramento",
+    "pergunta": "Um cliente precisa auditar o gerenciamento de mudanças dos recursos da AWS. Qual serviço deve ser utilizado?",
+    "respostas": [
+      "AWS Config",
+      "AWS Trusted Advisor",
+      "Amazon CloudWatch",
+      "Amazon Inspector"
+    ],
+    "correta": "AWS Config"
+  },
+  {
+    "topico": "Faturamento e Descontos",
+    "pergunta": "Qual serviço permite que uma empresa com várias contas AWS combine seu uso para obter descontos por volume?",
+    "respostas": [
+      "AWS Server Migration Service",
+      "AWS Organizations",
+      "AWS Budgets",
+      "AWS Trusted Advisor"
+    ],
+    "correta": "AWS Organizations"
+  }
+]

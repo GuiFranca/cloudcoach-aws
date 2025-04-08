@@ -1,0 +1,75 @@
+[
+  {
+    "topico": "Implantação de Aplicações",
+    "pergunta": "Quais dos seguintes serviços podem ser usados para implantar uma aplicação em servidores locais? (Escolha dois.)",
+    "respostas": [
+      "AWS Elastic Beanstalk",
+      "AWS OpsWorks",
+      "AWS CodeDeploy",
+      "AWS Batch",
+      "AWS X-Ray"
+    ],
+    "correta": [
+      "AWS OpsWorks",
+      "AWS CodeDeploy"
+    ]
+  },
+  {
+    "topico": "Modelos de Preço do EC2",
+    "pergunta": "Qual modelo de precificação do Amazon EC2 se ajusta com base na oferta e demanda de instâncias EC2?",
+    "respostas": [
+      "Instâncias Sob Demanda",
+      "Instâncias Reservadas",
+      "Instâncias Spot",
+      "Instâncias Reservadas Convertíveis"
+    ],
+    "correta": "Instâncias Spot"
+  },
+  {
+    "topico": "Boas Práticas de Arquitetura",
+    "pergunta": "Quais princípios de design para arquitetura em nuvem são recomendados ao reestruturar uma aplicação monolítica grande? (Escolha dois.)",
+    "respostas": [
+      "Usar monitoramento manual.",
+      "Usar servidores fixos.",
+      "Implementar acoplamento fraco.",
+      "Confiar em componentes individuais.",
+      "Projetar para escalabilidade."
+    ],
+    "correta": [
+      "Implementar acoplamento fraco.",
+      "Projetar para escalabilidade."
+    ]
+  },
+  {
+    "topico": "Planos de Suporte AWS",
+    "pergunta": "Qual é o plano de suporte da AWS MÍNIMO que permite tempo de resposta alvo de uma hora para casos de suporte?",
+    "respostas": [
+      "Enterprise",
+      "Business",
+      "Developer",
+      "Básico"
+    ],
+    "correta": "Business"
+  },
+  {
+    "topico": "Conformidade e Relatórios",
+    "pergunta": "Onde podem ser baixados os relatórios de conformidade e certificações da AWS?",
+    "respostas": [
+      "AWS Artifact",
+      "AWS Concierge",
+      "AWS Certificate Manager",
+      "AWS Trusted Advisor"
+    ],
+    "correta": "AWS Artifact"
+  },
+  {
+    "topico": "Faturamento Consolidado",
+    "pergunta": "Qual das seguintes é uma vantagem do faturamento consolidado na AWS?",
+    "respostas": [
+      "Qualificação para preços por volume",
+      "Permissões de acesso compartilhadas",
+      "Faturas múltiplas por conta"
+    ],
+    "correta": "Qualificação para preços por volume"
+  }
+]

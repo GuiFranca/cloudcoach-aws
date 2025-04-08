@@ -1,0 +1,135 @@
+[
+  {
+    "topico": "Amazon EC2",
+    "pergunta": "Qual das seguintes funcionalidades da AWS permite ao usuário iniciar uma instância EC2 pré-configurada?",
+    "respostas": [
+      "Amazon Elastic Block Store (Amazon EBS)",
+      "Amazon Machine Image",
+      "Amazon EC2 Systems Manager",
+      "Amazon AppStream 2.0"
+    ],
+    "correta": "Amazon Machine Image"
+  },
+  {
+    "topico": "IAM",
+    "pergunta": "Como um cliente da AWS pode aplicar facilmente controles de acesso comuns para um grande conjunto de usuários?",
+    "respostas": [
+      "Aplicar uma política IAM a um grupo IAM.",
+      "Aplicar uma política IAM a uma função IAM.",
+      "Aplicar a mesma política IAM para todos os usuários IAM com acesso à mesma carga de trabalho.",
+      "Aplicar uma política IAM a um pool de usuários do Amazon Cognito."
+    ],
+    "correta": "Aplicar uma política IAM a um grupo IAM."
+  },
+  {
+    "topico": "Auto Scaling",
+    "pergunta": "Qual tecnologia permite que a capacidade de computação se ajuste conforme a carga varia?",
+    "respostas": [
+      "Balanceamento de carga",
+      "Failover automático",
+      "Round robin",
+      "Auto Scaling"
+    ],
+    "correta": "Auto Scaling"
+  },
+  {
+    "topico": "Serviços Globais",
+    "pergunta": "Quais serviços da AWS são definidos como globais em vez de regionais? (Escolha dois.)",
+    "respostas": [
+      "Amazon Route 53",
+      "Amazon EC2",
+      "Amazon S3",
+      "Amazon CloudFront",
+      "Amazon DynamoDB"
+    ],
+    "correta": [
+      "Amazon Route 53",
+      "Amazon CloudFront"
+    ]
+  },
+  {
+    "topico": "Conformidade",
+    "pergunta": "Qual serviço da AWS você usaria para obter relatórios e certificados de conformidade?",
+    "respostas": [
+      "AWS Artifact",
+      "AWS Lambda",
+      "Amazon Inspector",
+      "AWS Certificate Manager"
+    ],
+    "correta": "AWS Artifact"
+  },
+  {
+    "topico": "Responsabilidade Compartilhada",
+    "pergunta": "No modelo de responsabilidade compartilhada, quais das seguintes tarefas são de responsabilidade do cliente? (Escolha duas.)",
+    "respostas": [
+      "Garantir que os dados de aplicação estejam criptografados em repouso",
+      "Garantir que os servidores NTP da AWS estejam com a hora correta",
+      "Garantir que os usuários tenham recebido treinamento de segurança no uso dos serviços da AWS",
+      "Garantir que o acesso aos data centers seja restrito",
+      "Garantir o descarte adequado de hardware"
+    ],
+    "correta": [
+      "Garantir que os dados de aplicação estejam criptografados em repouso",
+      "Garantir que os usuários tenham recebido treinamento de segurança no uso dos serviços da AWS"
+    ]
+  },
+  {
+    "topico": "Amazon EC2",
+    "pergunta": "Qual serviço da AWS pode ser usado para iniciar manualmente instâncias com base em requisitos de recursos?",
+    "respostas": [
+      "Amazon EBS",
+      "Amazon S3",
+      "Amazon EC2",
+      "Amazon ECS"
+    ],
+    "correta": "Amazon EC2"
+  },
+  {
+    "topico": "EC2 - Modelos de Preço",
+    "pergunta": "Uma empresa está migrando uma aplicação que roda cargas de trabalho não interrompíveis por um período de três anos. Qual modelo de preço é o MAIS econômico?",
+    "respostas": [
+      "Instâncias Spot do Amazon EC2",
+      "Instâncias Dedicadas do Amazon EC2",
+      "Instâncias Sob Demanda do Amazon EC2",
+      "Instâncias Reservadas do Amazon EC2"
+    ],
+    "correta": "Instâncias Reservadas do Amazon EC2"
+  },
+  {
+    "topico": "Boas Práticas de Arquitetura",
+    "pergunta": "Qual dos seguintes é um princípio de design da arquitetura em nuvem da AWS?",
+    "respostas": [
+      "Implementar pontos únicos de falha.",
+      "Implementar acoplamento fraco.",
+      "Implementar design monolítico.",
+      "Implementar escalabilidade vertical."
+    ],
+    "correta": "Implementar acoplamento fraco."
+  },
+  {
+    "topico": "Segurança",
+    "pergunta": "Quais das seguintes medidas de segurança protegem o acesso a uma conta AWS? (Escolha duas.)",
+    "respostas": [
+      "Habilitar o AWS CloudTrail.",
+      "Conceder acesso com menor privilégio aos usuários IAM.",
+      "Criar um usuário IAM e compartilhá-lo com vários desenvolvedores e usuários.",
+      "Ativar o Amazon CloudFront.",
+      "Ativar a autenticação multifator (MFA) para usuários privilegiados."
+    ],
+    "correta": [
+      "Conceder acesso com menor privilégio aos usuários IAM.",
+      "Ativar a autenticação multifator (MFA) para usuários privilegiados."
+    ]
+  },
+  {
+    "topico": "Armazenamento Híbrido",
+    "pergunta": "Qual serviço fornece armazenamento híbrido que permite que aplicações locais usem armazenamento na nuvem de forma transparente?",
+    "respostas": [
+      "Amazon Glacier",
+      "AWS Snowball",
+      "AWS Storage Gateway",
+      "Amazon EBS"
+    ],
+    "correta": "AWS Storage Gateway"
+  }
+]
