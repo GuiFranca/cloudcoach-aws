@@ -1,0 +1,98 @@
+[
+  {
+    "topico": "Infraestrutura Global",
+    "pergunta": "Qual característica da Nuvem AWS suportará o requisito de uma empresa internacional para baixa latência aos clientes?",
+    "respostas": [
+      "Tolerância a falhas",
+      "Alcance global",
+      "Preço pague-conforme-o-uso (Pay-as-you-go pricing)",
+      "Alta disponibilidade (High availability)"
+    ],
+    "correta": "Alcance global"
+  },
+  {
+    "topico": "Modelo de Responsabilidade Compartilhada",
+    "pergunta": "Qual das seguintes opções é responsabilidade do cliente sob o modelo de responsabilidade compartilhada da AWS?",
+    "respostas": [
+      "Aplicar patches na infraestrutura subjacente",
+      "Segurança física",
+      "Aplicar patches nas instâncias Amazon EC2",
+      "Aplicar patches na infraestrutura de rede"
+    ],
+    "correta": "Aplicar patches nas instâncias Amazon EC2"
+  },
+  {
+    "topico": "Faturamento e Custos",
+    "pergunta": "Um cliente está usando múltiplas contas AWS com faturamento separado. Como o cliente pode tirar vantagem de descontos por volume com impacto mínimo nos recursos da AWS?",
+    "respostas": [
+      "Migrar para uma conta AWS global e mover todos os recursos da AWS para essa conta.",
+      "Contratar três anos de preço de Instância Reservada antecipadamente.",
+      "Usar o recurso de faturamento consolidado do AWS Organizations.",
+      "Contratar o plano de suporte AWS Enterprise para obter descontos por volume."
+    ],
+    "correta": "Usar o recurso de faturamento consolidado do AWS Organizations."
+  },
+  {
+    "topico": "Monitoramento",
+    "pergunta": "Quais das seguintes opções são características do Amazon CloudWatch Logs? (Escolha duas.)",
+    "respostas": [
+      "Resumos por e-mail pelo Amazon Simple Notification Service (Amazon SNS)",
+      "Análise gratuita do Amazon Elasticsearch Service",
+      "Fornecido sem custo",
+      "Monitoramento em tempo real",
+      "Retenção ajustável"
+    ],
+    "correta": [
+      "Monitoramento em tempo real",
+      "Retenção ajustável"
+    ]
+  },
+  {
+    "topico": "Serviços de Rede",
+    "pergunta": "Qual dos seguintes é um serviço web gerenciado pela AWS de Sistema de Nomes de Domínio (DNS)?",
+    "respostas": [
+      "Amazon Route 53",
+      "Amazon Neptune",
+      "Amazon SageMaker",
+      "Amazon Lightsail"
+    ],
+    "correta": "Amazon Route 53"
+  },
+  {
+    "topico": "Regiões AWS",
+    "pergunta": "Um cliente está implantando uma nova aplicação e precisa escolher uma Região AWS. Quais dos seguintes fatores podem influenciar a decisão do cliente? (Escolha duas.)",
+    "respostas": [
+      "Latência reduzida para os usuários",
+      "A apresentação da aplicação no idioma local",
+      "Conformidade com a soberania de dados",
+      "Custos de refrigeração em climas mais quentes",
+      "Proximidade do escritório do cliente para visitas no local"
+    ],
+    "correta": [
+      "Latência reduzida para os usuários",
+      "Conformidade com a soberania de dados"
+    ]
+  },
+  {
+    "topico": "Amazon S3",
+    "pergunta": "Qual serviço de armazenamento pode ser usado como uma opção de baixo custo para hospedar sites estáticos?",
+    "respostas": [
+      "Amazon Glacier",
+      "Amazon DynamoDB",
+      "Amazon Elastic File System (Amazon EFS)",
+      "Amazon Simple Storage Service (Amazon S3)"
+    ],
+    "correta": "Amazon Simple Storage Service (Amazon S3)"
+  },
+  {
+    "topico": "Amazon EC2",
+    "pergunta": "Qual modelo de precificação de instância Amazon EC2 pode fornecer descontos de até 90%?",
+    "respostas": [
+      "Instâncias Reservadas (Reserved Instances)",
+      "Sob Demanda (On-Demand)",
+      "Hosts Dedicados (Dedicated Hosts)",
+      "Instâncias Spot (Spot Instances)"
+    ],
+    "correta": "Instâncias Spot (Spot Instances)"
+  }
+]

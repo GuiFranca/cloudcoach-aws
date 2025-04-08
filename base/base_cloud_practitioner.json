@@ -1,0 +1,67 @@
+[
+  {
+    "topico": "Amazon S3",
+    "conceito": "Amazon S3 é um serviço de armazenamento de objetos que oferece escalabilidade, disponibilidade de dados, segurança e performance.",
+    "explicacao_simples": "É como um armário na nuvem onde você guarda arquivos, fotos e vídeos.",
+    "pergunta": "Qual tipo de armazenamento o Amazon S3 oferece?",
+    "respostas": [
+      "Armazenamento de objetos",
+      "Armazenamento de blocos",
+      "Armazenamento de arquivos",
+      "Armazenamento em cache"
+    ],
+    "correta": "Armazenamento de objetos"
+  },
+  {
+    "topico": "Amazon EC2",
+    "conceito": "Amazon EC2 fornece capacidade de computação redimensionável na nuvem, permitindo executar servidores virtuais chamados instâncias.",
+    "explicacao_simples": "É como alugar um computador na nuvem para rodar seus programas.",
+    "pergunta": "O que o Amazon EC2 permite que você faça?",
+    "respostas": [
+      "Armazenar arquivos na nuvem",
+      "Criar redes privadas virtuais",
+      "Executar servidores virtuais na nuvem",
+      "Monitorar aplicações"
+    ],
+    "correta": "Executar servidores virtuais na nuvem"
+  },
+  {
+    "topico": "AWS IAM",
+    "conceito": "AWS Identity and Access Management (IAM) permite controlar de forma segura o acesso aos serviços e recursos da AWS.",
+    "explicacao_simples": "É o sistema de permissões da AWS, onde você escolhe quem pode fazer o quê.",
+    "pergunta": "Para que serve o AWS IAM?",
+    "respostas": [
+      "Gerenciar bancos de dados",
+      "Monitorar métricas",
+      "Controlar acesso a recursos da AWS",
+      "Criar máquinas virtuais"
+    ],
+    "correta": "Controlar acesso a recursos da AWS"
+  },
+  {
+    "topico": "AWS CloudFront",
+    "conceito": "Amazon CloudFront é um serviço de CDN (Content Delivery Network) que entrega dados, vídeos e aplicações com baixa latência.",
+    "explicacao_simples": "É como espalhar cópias do seu site pelo mundo para que ele carregue mais rápido para todo mundo.",
+    "pergunta": "O que o CloudFront faz?",
+    "respostas": [
+      "Armazena arquivos",
+      "Distribui conteúdo com baixa latência",
+      "Cria bancos de dados",
+      "Gerencia identidades de usuários"
+    ],
+    "correta": "Distribui conteúdo com baixa latência"
+  },
+  {
+    "topico": "AWS Support Plans",
+    "conceito": "A AWS oferece planos de suporte com diferentes níveis de atendimento, desde o plano básico até o empresarial.",
+    "explicacao_simples": "São planos que você pode contratar para receber ajuda da AWS, dependendo das suas necessidades.",
+    "pergunta": "Qual desses é um plano de suporte da AWS?",
+    "respostas": [
+      "Starter",
+      "Developer",
+      "Essentials",
+      "Community"
+    ],
+    "correta": "Developer"
+  }
+]

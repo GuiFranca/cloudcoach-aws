@@ -1,0 +1,116 @@
+[
+  {
+    "topico": "Infraestrutura Global",
+    "pergunta": "Qual característica da Nuvem AWS suportará a exigência de uma empresa internacional por baixa latência para todos os seus clientes?",
+    "respostas": [
+      "Tolerância a falhas",
+      "Alcance global",
+      "Preços pague-pelo-uso",
+      "Alta disponibilidade"
+    ],
+    "correta": "Alcance global"
+  },
+  {
+    "topico": "Serviços de Armazenamento e Banco de Dados",
+    "pergunta": "Quais serviços da AWS devem ser usados para leitura/escrita de dados que mudam constantemente? (Escolha dois.)",
+    "respostas": [
+      "Amazon Glacier",
+      "Amazon RDS",
+      "AWS Snowball",
+      "Amazon Redshift",
+      "Amazon EFS"
+    ],
+    "correta": [
+      "Amazon RDS",
+      "Amazon EFS"
+    ]
+  },
+  {
+    "topico": "Amazon RDS",
+    "pergunta": "Qual é uma das vantagens do Amazon Relational Database Service (Amazon RDS)?",
+    "respostas": [
+      "Simplifica tarefas de administração de banco de dados relacional.",
+      "Fornece 99,999999999% de confiabilidade e durabilidade.",
+      "Escala automaticamente bancos de dados para cargas.",
+      "Permite aos usuários ajustar dinamicamente recursos de CPU e RAM."
+    ],
+    "correta": "Simplifica tarefas de administração de banco de dados relacional."
+  },
+  {
+    "topico": "Amazon Aurora",
+    "pergunta": "Um cliente precisa executar um banco de dados MySQL que escale facilmente. Qual serviço AWS eles deveriam usar?",
+    "respostas": [
+      "Amazon Aurora",
+      "Amazon Redshift",
+      "Amazon DynamoDB",
+      "Amazon ElastiCache"
+    ],
+    "correta": "Amazon Aurora"
+  },
+  {
+    "topico": "Infraestrutura Global",
+    "pergunta": "Qual dos seguintes componentes da Infraestrutura Global da AWS consiste em um ou mais data centers discretos interconectados por links de baixa latência?",
+    "respostas": [
+      "Zona de Disponibilidade",
+      "Localização de Borda",
+      "Região",
+      "Rede privada"
+    ],
+    "correta": "Zona de Disponibilidade"
+  },
+  {
+    "topico": "Modelo de Responsabilidade Compartilhada",
+    "pergunta": "Qual dos seguintes é um controle compartilhado entre o cliente e a AWS?",
+    "respostas": [
+      "Fornecer uma chave para criptografia do lado do cliente do Amazon S3",
+      "Configuração de uma instância Amazon EC2",
+      "Controles ambientais de data centers físicos da AWS",
+      "Conscientização e treinamento"
+    ],
+    "correta": "Conscientização e treinamento"
+  },
+  {
+    "topico": "Armazenamento",
+    "pergunta": "Qual é a opção de armazenamento durável de menor custo para reter backups de banco de dados para recuperação imediata?",
+    "respostas": [
+      "Amazon S3",
+      "Amazon Glacier",
+      "Amazon EBS",
+      "Amazon EC2 Instance Store"
+    ],
+    "correta": "Amazon S3"
+  },
+  {
+    "topico": "Amazon DynamoDB",
+    "pergunta": "Qual dos seguintes é um serviço de banco de dados NoSQL rápido e confiável?",
+    "respostas": [
+      "Amazon Redshift",
+      "Amazon RDS",
+      "Amazon DynamoDB",
+      "Amazon S3"
+    ],
+    "correta": "Amazon DynamoDB"
+  },
+  {
+    "topico": "Boas Práticas de Arquitetura",
+    "pergunta": "Qual abordagem para transcodificar um grande número de arquivos de vídeo individuais adere aos princípios de arquitetura da AWS?",
+    "respostas": [
+      "Usar muitas instâncias em paralelo",
+      "Usar uma única instância grande durante horas de baixa demanda",
+      "Usar hardware dedicado",
+      "Usar um tipo de instância GPU grande"
+    ],
+    "correta": "Usar muitas instâncias em paralelo"
+  },
+  {
+    "topico": "Segurança e Compliance",
+    "pergunta": "Por qual processo de auditoria a AWS tem responsabilidade exclusiva?",
+    "respostas": [
+      "Políticas do AWS IAM",
+      "Segurança física",
+      "Políticas de bucket do Amazon S3",
+      "Logs do AWS CloudTrail"
+    ],
+    "correta": "Segurança física"
+  }
+]
