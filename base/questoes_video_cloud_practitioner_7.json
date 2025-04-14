@@ -1,0 +1,120 @@
+[
+  {
+    "topico": "Monitoramento e Auditoria",
+    "pergunta": "Quais serviços da AWS podem ser usados para reunir informações sobre a atividade da conta AWS? (Escolha dois.)",
+    "respostas": [
+      "Amazon CloudFront",
+      "AWS Cloud9",
+      "AWS CloudTrail",
+      "AWS CloudHSM",
+      "Amazon CloudWatch"
+    ],
+    "correta": [
+      "AWS CloudTrail",
+      "Amazon CloudWatch"
+    ]
+  },
+  {
+    "topico": "Instâncias EC2",
+    "pergunta": "Em qual cenário as instâncias Spot do Amazon EC2 devem ser usadas?",
+    "respostas": [
+      "Uma empresa quer migrar seu site principal para a AWS a partir de um servidor local.",
+      "Uma empresa tem serviços com SLA exigindo 99.999% de uptime.",
+      "Uma base de dados legada muito utilizada está sendo executada localmente.",
+      "Uma empresa possui vários jobs intermitentes e interrompíveis que atualmente usam instâncias Sob Demanda."
+    ],
+    "correta": "Uma empresa possui vários jobs intermitentes e interrompíveis que atualmente usam instâncias Sob Demanda."
+  },
+  {
+    "topico": "Alta Disponibilidade",
+    "pergunta": "Qual recurso da AWS deve ser aproveitado para obter alta disponibilidade de uma aplicação?",
+    "respostas": [
+      "AWS Direct Connect",
+      "Zonas de Disponibilidade",
+      "Data centers",
+      "Amazon VPC"
+    ],
+    "correta": "Zonas de Disponibilidade"
+  },
+  {
+    "topico": "Planos de Suporte",
+    "pergunta": "Qual é o plano de suporte MÍNIMO que inclui o Gerenciamento de Eventos de Infraestrutura sem custos adicionais?",
+    "respostas": [
+      "Enterprise",
+      "Business",
+      "Developer",
+      "Basic"
+    ],
+    "correta": "Business"
+  },
+  {
+    "topico": "Armazenamento Estático",
+    "pergunta": "Qual serviço da AWS pode ser usado para hospedar um site estático?",
+    "respostas": [
+      "Amazon S3",
+      "Amazon Route 53",
+      "Amazon QuickSight",
+      "AWS X-Ray"
+    ],
+    "correta": "Amazon S3"
+  },
+  {
+    "topico": "Provisionamento",
+    "pergunta": "Como a AWS reduz o tempo para provisionar recursos de TI?",
+    "respostas": [
+      "A AWS fornece uma plataforma de tickets online para solicitações de recursos.",
+      "A AWS oferece validação automática de código.",
+      "A AWS permite o provisionamento programático de recursos existentes.",
+      "A AWS automatiza o processo de solicitação de recursos com fornecedores de TI."
+    ],
+    "correta": "A AWS permite o provisionamento programático de recursos existentes."
+  },
+  {
+    "topico": "Edge Locations",
+    "pergunta": "Para que as edge locations da AWS podem ser usadas? (Escolha duas.)",
+    "respostas": [
+      "Hospedar aplicações",
+      "Entregar conteúdo mais próximo dos usuários",
+      "Executar cache de banco de dados NoSQL",
+      "Reduzir o tráfego no servidor com cache de respostas",
+      "Enviar mensagens de notificação aos usuários finais"
+    ],
+    "correta": [
+      "Entregar conteúdo mais próximo dos usuários",
+      "Reduzir o tráfego no servidor com cache de respostas"
+    ]
+  },
+  {
+    "topico": "Controle de Acesso",
+    "pergunta": "Qual das seguintes opções pode limitar o acesso a buckets do Amazon S3 a usuários específicos?",
+    "respostas": [
+      "Par de chaves pública e privada",
+      "Amazon Inspector",
+      "Políticas IAM",
+      "Security Groups"
+    ],
+    "correta": "Políticas IAM"
+  },
+  {
+    "topico": "Elasticidade",
+    "pergunta": "Uma solução que suporta crescimento de usuários, tráfego ou volume de dados sem queda de performance segue qual princípio da arquitetura em nuvem?",
+    "respostas": [
+      "Pensar de forma paralela",
+      "Implementar elasticidade",
+      "Desacoplar componentes",
+      "Projetar para falha"
+    ],
+    "correta": "Implementar elasticidade"
+  },
+  {
+    "topico": "Modelo de Custo",
+    "pergunta": "Uma empresa migrará de um data center local para a AWS. Qual seria uma diferença financeira após a mudança?",
+    "respostas": [
+      "Mudança de opex variável para capex antecipado.",
+      "Mudança de capex antecipado para capex variável.",
+      "Mudança de capex antecipado para opex variável.",
+      "Eliminação de capex e opex."
+    ],
+    "correta": "Mudança de capex antecipado para opex variável."
+  }
+]

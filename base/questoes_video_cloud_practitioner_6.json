@@ -1,0 +1,79 @@
+[
+  {
+    "topico": "Responsabilidade do Cliente",
+    "pergunta": "Qual dos seguintes serviços está sob responsabilidade do cliente para manter a configuração do sistema operacional, aplicação de patches de segurança e rede?",
+    "respostas": [
+      "Amazon RDS",
+      "Amazon EC2",
+      "Amazon ElastiCache",
+      "AWS Fargate"
+    ],
+    "correta": "Amazon EC2"
+  },
+  {
+    "topico": "Boas Práticas de Arquitetura",
+    "pergunta": "Qual dos seguintes é um princípio importante de design arquitetônico ao projetar aplicações em nuvem?",
+    "respostas": [
+      "Usar múltiplas Zonas de Disponibilidade.",
+      "Usar componentes fortemente acoplados.",
+      "Usar software de código aberto.",
+      "Provisionar capacidade extra."
+    ],
+    "correta": "Usar múltiplas Zonas de Disponibilidade."
+  },
+  {
+    "topico": "Planos de Suporte AWS",
+    "pergunta": "Qual plano de suporte da AWS inclui um Gerente Técnico de Conta (TAM) dedicado?",
+    "respostas": [
+      "Developer",
+      "Enterprise",
+      "Business",
+      "Basic"
+    ],
+    "correta": "Enterprise"
+  },
+  {
+    "topico": "Amazon RDS",
+    "pergunta": "O Amazon Relational Database Service (Amazon RDS) oferece qual dos seguintes benefícios em relação à gestão tradicional de banco de dados?",
+    "respostas": [
+      "A AWS gerencia os dados armazenados nas tabelas do Amazon RDS.",
+      "A AWS gerencia a manutenção do sistema operacional.",
+      "A AWS escala automaticamente os tipos de instância sob demanda.",
+      "A AWS gerencia o tipo de banco de dados."
+    ],
+    "correta": "A AWS gerencia a manutenção do sistema operacional."
+  },
+  {
+    "topico": "Armazenamento em Cache",
+    "pergunta": "Qual serviço é melhor para armazenar resultados comuns de consultas a banco de dados, ajudando a aliviar a carga de acesso ao banco?",
+    "respostas": [
+      "Amazon Machine Learning",
+      "Amazon SQS",
+      "Amazon ElastiCache",
+      "Amazon EC2 Instance Store"
+    ],
+    "correta": "Amazon ElastiCache"
+  },
+  {
+    "topico": "Responsabilidade da AWS",
+    "pergunta": "Qual dos seguintes é um componente do modelo de responsabilidade compartilhada gerenciado inteiramente pela AWS?",
+    "respostas": [
+      "Aplicação de patches no sistema operacional",
+      "Criptografia de dados",
+      "Aplicação de autenticação multifator",
+      "Auditoria de ativos físicos do data center"
+    ],
+    "correta": "Auditoria de ativos físicos do data center"
+  },
+  {
+    "topico": "Faturamento Consolidado",
+    "pergunta": "Se cada departamento de uma empresa possui sua própria conta AWS, qual é uma maneira de habilitar faturamento consolidado?",
+    "respostas": [
+      "Usar o AWS Budgets em cada conta para pagar conforme o orçamento.",
+      "Contatar o suporte AWS para uma fatura mensal.",
+      "Criar uma AWS Organization a partir da conta pagadora e convidar as outras contas para participar.",
+      "Colocar todas as faturas em um bucket Amazon S3, carregar os dados no Amazon Redshift e então executar um relatório de faturamento."
+    ],
+    "correta": "Criar uma AWS Organization a partir da conta pagadora e convidar as outras contas para participar."
+  }
+]
